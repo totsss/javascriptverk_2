@@ -75,7 +75,7 @@ donuts.forEach(function(donuts) {
             return (pizza.staerd + 'hefur : ' + pizza.alegg.toString()+' kostnaður :' + pizza.verd + 'kr.');
         }
   }
-    pizza = new Pizza('stór',['ostur','hakk','skinka'],2100);
-    pizza2 = new Pizza('lítil',['ostur','annanas','skinka'],1200);
+    let pizza = new Pizza('stór',['ostur','hakk','skinka'],2100);
+    let pizza2 = new Pizza('lítil',['ostur','annanas','skinka'],1200);
     console.log(pizza);
     console.log(pizza2);
