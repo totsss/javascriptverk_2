@@ -14,3 +14,12 @@ console.log(toti)
 
 3.
 
+var pizza = [
+    { type: "Stór", alegg: "Ostur og skinka", cost: 1500 },
+    { type: "Lítl", alegg: "Hakk og Lauk" , cost: 1200 },
+    
+];
+
+pizza.forEach(function(pizza) {
+    console.log(pizza.type +" með " + pizza.alegg +" kostar "+ pizza.cost  );
+});
