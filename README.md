@@ -1,6 +1,6 @@
 # javascriptverk_2
 1.
-let toti={
+let toti = { 
 nafn:'þórður',
 heimasimi:5812345,
 gsm:7878042
